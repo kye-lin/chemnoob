@@ -11,8 +11,12 @@ body {
 	margin-right: 25%;
 }
 
+nav {
+	padding: 2em;
+}
+
 h1 {
-	font-size: 100px;
+	font-size: 60px;
 }
 
 h3 {
@@ -29,14 +33,32 @@ h4 {
 
 p {
 	font-size: 16px;
+	padding-top: 1em;
 }
 
-ul {
+ol, ul {
 	list-style-position: inside;
 	padding-top: 1em;
 	padding-left: 1em;
 }
 
+li {
+	margin-bottom: 0.5em;
+}
+
 .indent-list {
 	padding-left: 2em;
+}
+
+.callout {
+	outline: 2px solid black;
+	padding-left: 1em;
+	padding-bottom: 2em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.red-bold {
+	color: red;
+	font-size: 120%;
 }
