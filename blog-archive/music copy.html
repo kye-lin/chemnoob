@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Music</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/loaf.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+  </head>
+  <body>
+    <!-- Nav bar -->
+    <header class="header" id="header">
+      <nav class="navbar container">
+
+        <a href="./index.html">
+          <h2 class="logo">Loaf Soup</h2>
+        </a>
+
+        <div class="menu" id="menu">
+          <ul class="list">
+            <li class="list-item">
+              <a href="./index.html" class="list-link">Home</a>
+            </li>
+            <li class="list-item">
+              <a href="./about.html" class="list-link">About</a>
+            </li>
+            <li class="list-item">
+              <a href="./blog.html" class="list-link">Blog</a>
+            </li>
+            <li class="list-item">
+              <a href="./projects.html" class="list-link">Projects</a>
+            </li>
+						<li class="list-item">
+              <a href="./music.html" class="list-link current">Music</a>
+            </li>
+            <li class="list-item">
+              <a href="./contact.html" class="list-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="list list-right">
+          <button class="btn place-items-center" id="theme-toggle-btn">
+            <i class="ri-sun-line sun-icon"></i>
+            <i class="ri-moon-line moon-icon"></i>
+          </button>
+          
+          <button class="btn place-items-center" id="search-icon">
+            <i class="ri-search-line"></i>
+          </button>
+
+          <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+            <i class="ri-menu-3-line open-menu-icon"></i>
+            <i class="ri-close-line close-menu-icon"></i>
+          </button>
+
+        </div>
+      </nav>
+    </header>
+
+    <!-- Search -->
+    <div class="search-form-container container" id="search-form-container">
+      <div class="form-container-inner">
+        <form action="" class="form">
+          <input type="text" class="form-input" placeholder="Search">
+          <button class="btn form-btn" type="submit">
+            <i class="ri-search-line"></i>
+          </button>
+        </form>
+        <span class="form-note">Press ESC to close</span>
+      </div>
+
+      <button class="btn form-close-btn place-items-center" id="form-close-btn">
+        <i class="ri-close-line"></i>
+      </button>
+    </div>
+
+		<section class="blog-post">
+			<div class="blog-post-container">
+				<h1 class="blog-post-title">Music
+				</h1>
+	
+				<h4 class="blog-post-subtitle">Some of my recent projects from my music channel, <a href="https://www.youtube.com/@loafsoup" class="link" target="_blank">loaf soup</a>:
+				</h4>
+	
+				<!-- <img src="./assets/images/..." alt="..." class="blog-post-image">
+				<p class="blog-post-caption">
+					...
+				</p> -->
+	
+				<div class="music-youtube-container">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/SYR07se77W4?si=BIM--74ZlXpM1LdE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/PBLLh8y--Ms?si=ktk_ShIHbxuwkqn6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/_HO8tL6kbp0?si=wBx8EjQ3Eh3-07eh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/UCgyMOUWxbA?si=T60H1VeoyxPVIREp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+
+        <h1 class="blog-post-title">🎵 My musical background 
+				</h1>
+				
+        <p class="blog-post-text">One of my passions is music. My musical journey began when I started piano lessons when I was around 2 years old, because my older sister was learning piano. Fast forward to now, I've performed Schumann's Piano Concerto in A Minor at Music Fest Perugia in Perugia, Italy. I also have experience teaching piano and music theory young kids. Growing up with classical music, I fell in love with its glistening melodies, hushed tones, and roaring magnificence in the concert hall.</p>
+
+        <p class="blog-post-text">In high school, I joined jazz band, playing tenor saxophone and piano. I fell in love with jazz, how one could simultaneously be the composer and the performer. Performing in big band competitions and small combo gigs challenged me to teach myself. Then, summer after high school, a family friend gifted me a free electric guitar. I always loved listening to Wes Montgomery's gentle chord melodies, so I started learning jazz guitar. Then I joined my university's jazz ensembles, learning lots from the other skilled players.</p>
+
+			</div>
+		</section>
+
+
+    <!-- Swiper.js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

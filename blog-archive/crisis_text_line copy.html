@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>loaf soup</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./loaf.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href=".assets/css/swiper-bundle.min.css"/>
+  </head>
+  <body>
+		<!-- Nav bar -->
+    <header class="header" id="header">
+      <nav class="navbar container">
+
+        <a href="./index.html">
+          <h2 class="logo">Loaf Soup</h2>
+        </a>
+
+        <div class="menu" id="menu">
+          <ul class="list">
+            <li class="list-item">
+              <a href="./index.html" class="list-link current">Home</a>
+            </li>
+            <li class="list-item">
+              <a href="./about.html" class="list-link">About</a>
+            </li>
+            <li class="list-item">
+              <a href="./blog.html" class="list-link">Blog</a>
+            </li>
+            <li class="list-item">
+              <a href="./projects.html" class="list-link">Projects</a>
+            </li>
+            <li class="list-item">
+              <a href="" class="list-link">Contact</a>
+            </li>
+            <li class="list-item screen-lg-hidden">
+              <a href="" class="list-link">Sign in</a>
+            </li>
+            <li class="list-item">
+              <a href="" class="list-link screen-lg-hidden">Sign up</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="list list-right">
+          <button class="btn place-items-center" id="theme-toggle-btn">
+            <i class="ri-sun-line sun-icon"></i>
+            <i class="ri-moon-line moon-icon"></i>
+          </button>
+          
+          <button class="btn place-items-center" id="search-icon">
+            <i class="ri-search-line"></i>
+          </button>
+
+          <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+            <i class="ri-menu-3-line open-menu-icon"></i>
+            <i class="ri-close-line close-menu-icon"></i>
+          </button>
+
+          <a href="" class="list-link screen-sm-hidden">Sign in</a>
+          <a href="" class="list-link screen-sm-hidden btt sign-up-btn fancy-border">
+            <span>Sign up</span>
+          </a>
+
+        </div>
+      </nav>
+    </header>
+
+    <!-- Search -->
+    <div class="search-form-container container" id="search-form-container">
+      <div class="form-container-inner">
+        <form action="" class="form">
+          <input type="text" class="form-input" placeholder="Search">
+          <button class="btn form-btn" type="submit">
+            <i class="ri-search-line"></i>
+          </button>
+        </form>
+        <span class="form-note">Press ESC to close</span>
+      </div>
+
+      <button class="btn form-close-btn place-items-center" id="form-close-btn">
+        <i class="ri-close-line"></i>
+      </button>
+    </div>
+
+    <!-- Blog post -->
+		<section class="blog-post">
+			<div class="blog-post-container">
+				<h1 class="blog-post-title">Becoming a Crisis Text Line Counselor
+				</h1>
+	
+				<h4 class="blog-post-subtitle">Training, motivations, and my goals as a counselor
+				</h4>
+	
+				<img src="./assets/images/mental-health.jpg" alt="head with mental health struggles" class="blog-post-image">
+				<p class="blog-post-caption">
+					Everyone needs an empathetic, nonjudgmental listening ear sometimes.
+				</p>
+	
+				<div class="article-data">
+					<span>21 July 2024</span>
+					<!-- <span class="article-data-spacer"></span>
+					<span>__ minute read</span> -->
+				</div>
+	
+				<hr class="hr-spacer">
+				
+				<p class="blog-post-text">This week I started training to become a <a href="https://www.crisistextline.org/" class="link" target="_blank">Crisis Text Line</a> crisis counselor. I’m excited to learn more about what goes into being a great counselor. I also can’t wait to take my first shift.
+				</p>
+
+				<p class="blog-post-text">I applied to become a Crisis Text Line counselor for three reasons: 
+				</p>
+
+				<!-- <img src="./assets/images/..." alt="..." class="blog-post-image">
+				<p class="blog-post-caption">
+					...
+				</p> -->
+
+				<p class="blog-post-text">Firstly, my older sister, who became a Crisis Text Line Counselor during high school, inspired me. She is a great listener who I can always trust with my worries and problems. I want to improve my listening skills and empathetically support people like she does. 
+				</p>
+
+				<p class="blog-post-text">Second of all, I am interested in pursuing a psychology-related career. Mental health has always been something I liked learning about, so much so that one of my high school friends and I started an organization to teach little kids about mental health called Teens for Mental Wellness. Although it didn’t succeed as we hoped it would, we gained entrepreneurial skills and discovered what we had yet to learn about both psychology and education. The project also solidified our passions for mental health, leading us to keep studying it in university. Building my skills as a counselor, I hope, will help me succeed in future psychology-related jobs that I am interested in, such as teaching, therapy, and trauma treatment. 
+				</p>
+
+				<p class="blog-post-text">Last but not least, I simply want to make a difference. Research shows that helping people is one of the most impactful factors that <a href="https://link.springer.com/article/10.1007/s11482-016-9453-z" class="link" target="_blank">gives purpose to one’s life</a>. I am no exception. At work, helping a lost library patron find their book can make my day. There are too many world problems begging for attention—poverty, homelessness, sexual harassment and rape culture, sexism, homophobia, transphobia, <a href="https://cdrnys.org/blog/uncategorized/ableism/" class="link" target="_blank">ableism</a>, etc—and my efforts alone cannot fix everything. But what I can do is focus on small steps and offer a service that’s within my abilities at the moment: educating myself, becoming a counselor, and providing a non-judgmental ear to a friend in need (even if that friend is a stranger across the country). By hearing people’s stories from far and wide, I hope to gain a more holistic perspective of the world. 
+				</p>
+
+				<p class="blog-post-text">The training modules are structured like an online course, with articles, short quizzes, and videos to support your understanding of how to respond to texters appropriately. I learned a lot about the ingredients that go into being a skillful, nonjudgmental listener. 
+				</p>
+
+				<p class="blog-post-text">One aspect I want to work on is not inserting my opinion while listening. During conversations with friends and family, I noticed that I have a habit of saying “that’s good!” or “but maybe this would work better?” as forms of praise or advice. As a counselor, though, praise and advice are not appropriate. Instead of praising, we are meant to rephrase the texter’s message in our own words to show comprehension, ask open-ended questions to understand them better, and give strength-related compliments such as “you were brave to reach out today,” which is way better than “that’s good!” And instead of advice, we are tasked with collaborating with the texter to come up with plans of action. 
+				</p>
+
+				<p class="blog-post-text">In addition, I’ve learned a lot so far about how to spot suicidal ideation in a texter, even when it is difficult because texting is a “cold” medium where we cannot see or hear the texter. I look forward to learning more and using my skills for good. 
+				</p>
+
+				<p class="blog-post-text"></p>
+
+				<p class="blog-post-text"></p>
+
+				<p class="blog-post-text"></p>
+
+				<p class="blog-post-text"></p>
+
+				<!-- <blockquote class="blockquote">
+					<hr class="quote-hr">
+					<p class="quote"></p>
+					<hr class="quote-hr">
+				</blockquote> -->
+
+
+				<!-- About the author -->
+				<div class="author d-grid">
+					<div class="author-image-box">
+						<img src="./assets/images/pfp-drawing.jpeg" alt="my profile picture" class="article-image">
+					</div>
+	
+					<div class="author-about">
+						<h3 class="author-name">Hey, I'm Kye.</h3>
+						<p>I'm a university student who loves music, books, and learning new things. This website is where I share lessons I've learned and cool topics I'm curious about. Thanks for stopping by. 😙</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Newsletter -->
+			<section class="newsletter section">
+				<div class="container">
+					<h2 class="title section-title" data-name="Newsletter">Newsletter</h2>
+	
+					<div class="form-container">
+	
+						<h6 class="title newsletter-title">Subscribe to Loaf Soup</h6>
+						<p class="newsletter-description">Sign up for a monthly newsletter to get notified about new posts.</p>
+	
+						<form action="" class="form">
+							<label for="first-name" class="form-label">First name:</label>
+							<input type="text" id="first-name" name="first-name" class="form-input">
+							<label for="last-name" class="form-label">Last name:</label>
+							<input type="text" id="last-name" name="last-name" class="form-input">
+						
+							<label for="email" class="form-label">Email: </label>
+							<div class="form-email">
+								<input type="text" class="form-input" placeholder="Enter your email address">
+							</div>
+	
+							<button class="btn form-btn" type="submit">Submit</button>
+						</form>
+	
+					</div>
+	
+				</div>
+			</section>
+	
+			
+	
+			</div>
+		</section>
+
+		
+    <!-- Footer -->
+		<footer class="footer section">
+
+			<div class="footer-container container d-grid">
+
+				<div class="company-data">
+					<a href="./index.html">
+						<h2 class="logo">Loaf Soup</h2>
+					</a>
+					<p class="company-description">just a human with lots of thoughts</p>
+
+					<ul class="list social-media">
+						<li class="list-item">
+							<a href="https://www.youtube.com/@loafsoup" class="list-link" target="_blank">
+								<i class="ri-youtube-line"></i>
+							</a>
+							<a href="https://github.com/kye-lin" class="list-link" target="_blank">
+								<i class="ri-github-line"></i>
+							</a>
+							<a href="https://www.linkedin.com/in/kye-lin-59473b289/" class="list-link" target="_blank">
+								<i class="ri-linkedin-line"></i>
+							</a>
+						</li>
+					</ul>
+
+					<span class="copyright-notice">&copy; 2024 Loaf Soup. All rights reserved.</span>
+				</div>
+
+				<div>
+					<h6 class="title footer-title">Navigation</h6>
+
+					<ul class="list footer-list">
+						<li class="list-item">
+							<a href="./index.html" class="list-link">Home</a>
+						</li>
+						<li class="list-item">
+							<a href="./about.html" class="list-link">About</a>
+						</li>
+						<li class="list-item">
+							<a href="./blog.html" class="list-link">Blog</a>
+						</li>
+						<li class="list-item">
+							<a href="./projects.html" class="list-link">Projects</a>
+						</li>
+						<li class="list-item">
+							<a href="#" class="list-link">Contact</a>
+						</li>
+						<li class="list-item">
+							<a href="#" class="list-link">Sign in</a>
+						</li>
+						<li class="list-item">
+							<a href="#" class="list-link">Sign up</a>
+						</li>
+					</ul>
+				</div>
+
+				<div>
+					<h6 class="title footer-title">Categories</h6>
+
+					<ul class="list footer-list">
+						<li class="list-item">
+							<a href="#" class="list-link">Books</a>
+						</li>
+						<li class="list-item">
+							<a href="#" class="list-link">Challenges</a>
+						</li>
+						<li class="list-item">
+							<a href="#" class="list-link">Self-esteem</a>
+						</li>
+						<li class="list-item">
+							<a href="#" class="list-link">Life</a>
+						</li>
+						<li class="list-item">
+							<a href="#" class="list-link">Music</a>
+						</li>
+						<li class="list-item">
+							<a href="#" class="list-link">Fitness</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+
+    <!-- Related posts -->
+
+
+    <!-- Swiper.js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
